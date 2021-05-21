@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <cs50.h>
-#include <math.h>
 
 int pyth(int, int, int);
 
@@ -28,7 +26,7 @@ int main(void)
 
 int pyth(int a, int b, int c)
 {
-	if( pow(a,2) == pow(b, 2) + pow(c, 2)) 
+	if( a*a == b*b + c*c) 
 		return 1;
 	else
 		return 0;
