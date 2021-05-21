@@ -20,13 +20,13 @@ void pattern(int N, int R, char c, char f)
 {
 	int j;
 	for( int i = 0; i < R; i++)
-	{		
+	{	
+		printf("\n");
 		for(j = 0; j < R-1-i; j++)
 			printf("%c", c);
 		if( N == 2)	
 			for(int k = j; k < R; k++)	
 				printf("%c", f);
-		printf("\n");
 	}
 }	
 	
