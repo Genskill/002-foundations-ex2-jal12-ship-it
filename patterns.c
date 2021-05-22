@@ -19,6 +19,7 @@ int main(void)
 void pattern(int N, int R, char c, char f)
 {
 	int j;
+	printf("\n");
 	for( int i = 0; i < R; i++)
 	{	
 		for(j = 0; j < R-1-i; j++)
@@ -30,7 +31,7 @@ void pattern(int N, int R, char c, char f)
 			printf("\n");
 		}
 		else
-			if( i < R-1-i)
+			if( i < R-1 )
 				printf("\n");
 	}
 }	
