@@ -8,7 +8,7 @@ int main(void)
 	int N, R;
 	char c, f;
 	N = get_int("Enter type of pattern (1 or 2) ");
-	R = get_int("Number of rown");
+	R = get_int("Number of rows");
 	if (N == 1)
 		pattern(N, R+1, c='#', f='.');
 	else
