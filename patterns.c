@@ -19,7 +19,7 @@ int main(void)
 void pattern(int N, int R, char c, char f)
 {
 	int j;
-	printf("\n");
+	//printf("\n");
 	for( int i = 0; i < R; i++)
 	{	
 		for(j = 0; j < R-1-i; j++)
