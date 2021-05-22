@@ -24,11 +24,14 @@ void pattern(int N, int R, char c, char f)
 		for(j = 0; j < R-1-i; j++)
 			printf("%c", c);
 		if( N == 2)	
+		{
 			for(int k = j; k < R; k++)	
 				printf("%c", f);
-		
-		if( j< R-1-i)
 			printf("\n");
+		}
+		else
+			if( i < R-1-i)
+				printf("\n");
 	}
 }	
 	
